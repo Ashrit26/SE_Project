@@ -6,9 +6,233 @@
 	body{
 	background-color: linen;
 }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+
+    border: none;
+    cursor: pointer;
+    width: 100;
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 </style>
 </head>
 <body>
+	<h2>Selection of Equipments</h2>
+<br>
+<br>
 
+	<h4>First select the sport</h4>
+<form>
+	<select name="Sports">
+		<option value="select the sport">select the sport</option>
+		<option value="Basketball">Basketball</option>
+
+		<option value="Football">Football</option>
+		<option value="Cricket">Cricket</option>
+		<option value="Hockey">Hockey</option>
+		<option value="Table Tennis">Table Tennis</option>
+		<option value="Tennis">Tennis</option>
+		<option value="Badminton">Badminton</option>
+	</select><br><br><br>
+	<span style="display: inline-block; margin: 10px"> <h4>Item number 1</h4>
+
+
+	<select name="Equipments">
+			<option value="select the item">select the item</option>
+			<option value="Basketball">Basketball 1</option>
+			<option value="Basketball">Basketball 2</option>
+			<option value="Basketball">Basketball 3</option>
+			<option value="Basketball">Basketball 4</option>
+			<option value="Football">Football 1</option>
+			<option value="Football">Football 2</option>
+			<option value="Football">Football 3</option>
+			<option value="Football">Football 4</option>
+			<option value="Cricket">SS bat</option>
+			<option value="Cricket">SG bat</option>
+			<option value="Cricket">GM bat</option>
+			<option value="Cricket">Vicky ball</option>
+			<option value="Cricket">Tennis ball</option>
+			<option value="Cricket">Leather ball</option>
+			<option value="Cricket">Wickets</option>
+			<option value="Hockey">Stick 1</option>
+			<option value="Hockey">Stick 2</option>
+			<option value="Hockey">Stick 3</option>
+			<option value="Hockey">Hockey ball</option>
+			<option value="Table Tennis">TT Racket 1</option>
+			<option value="Table Tennis">TT Racket 2</option>
+			<option value="Table Tennis">Ping-Pong ball</option>
+			<option value="Tennis">Tennis racket 1</option>
+			<option value="Tennis">Tennis racket 2</option>
+			<option value="Badminton">Plastic shuttle</option>
+			<option value="Badminton">Feather shuttle</option>
+
+
+		</select></span>
+		
+		<span style="display: inline-block; margin: 10px"> <h4>Item number 2</h4>
+
+	<select name="Equipments">
+			<option value="select the item">select the item</option>
+			<option value="Basketball">Basketball 1</option>
+			<option value="Basketball">Basketball 2</option>
+			<option value="Basketball">Basketball 3</option>
+			<option value="Basketball">Basketball 4</option>
+			<option value="Football">Football 1</option>
+			<option value="Football">Football 2</option>
+			<option value="Football">Football 3</option>
+			<option value="Football">Football 4</option>
+			<option value="Cricket">SS bat</option>
+			<option value="Cricket">SG bat</option>
+			<option value="Cricket">GM bat</option>
+			<option value="Cricket">Vicky ball</option>
+			<option value="Cricket">Tennis ball</option>
+			<option value="Cricket">Leather ball</option>
+			<option value="Cricket">Wickets</option>
+			<option value="Hockey">Stick 1</option>
+			<option value="Hockey">Stick 2</option>
+			<option value="Hockey">Stick 3</option>
+			<option value="Hockey">Hockey ball</option>
+			<option value="Table Tennis">TT Racket 1</option>
+			<option value="Table Tennis">TT Racket 2</option>
+			<option value="Table Tennis">Ping-Pong ball</option>
+			<option value="Tennis">Tennis racket 1</option>
+			<option value="Tennis">Tennis racket 2</option>
+			<option value="Badminton">Plastic shuttle</option>
+			<option value="Badminton">Feather shuttle</option>
+
+			
+		</select></span>
+		<span style="display: inline-block; margin: 10px"> <h4>Item number 3</h4>
+
+	<select name="Equipments">
+			<option value="select the item">select the item</option>
+			<option value="Basketball">Basketball 1</option>
+			<option value="Basketball">Basketball 2</option>
+			<option value="Basketball">Basketball 3</option>
+			<option value="Basketball">Basketball 4</option>
+			<option value="Football">Football 1</option>
+			<option value="Football">Football 2</option>
+			<option value="Football">Football 3</option>
+			<option value="Football">Football 4</option>
+			<option value="Cricket">SS bat</option>
+			<option value="Cricket">SG bat</option>
+			<option value="Cricket">GM bat</option>
+			<option value="Cricket">Vicky ball</option>
+			<option value="Cricket">Tennis ball</option>
+			<option value="Cricket">Leather ball</option>
+			<option value="Cricket">Wickets</option>
+			<option value="Hockey">Stick 1</option>
+			<option value="Hockey">Stick 2</option>
+			<option value="Hockey">Stick 3</option>
+			<option value="Hockey">Hockey ball</option>
+			<option value="Table Tennis">TT Racket 1</option>
+			<option value="Table Tennis">TT Racket 2</option>
+			<option value="Table Tennis">Ping-Pong ball</option>
+			<option value="Tennis">Tennis racket 1</option>
+			<option value="Tennis">Tennis racket 2</option>
+			<option value="Badminton">Plastic shuttle</option>
+			<option value="Badminton">Feather shuttle</option>
+
+			
+		</select></span>
+
+	<br><br><br>
+	<button type="submit">Submit</button>
+	<br><br>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cricket.jpeg">
+      <img src="cricket.jpeg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="football.jpeg">
+      <img src="football.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="basketball.jpeg">
+      <img src="basketball.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="tennis.jpeg">
+      <img src="tennis.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    
+  </div>
+</div>
+
+<div class="clearfix"></div>
+	
+</form>
 </body>
 </html>
